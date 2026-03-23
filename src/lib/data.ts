@@ -7,7 +7,7 @@ export const brand = {
   manifestoExtended:
     "Every thread we weave carries the weight of intention and the lightness of air. We don't chase trends — we observe the world above and translate its language into cloth. Our collections are forecasts of feeling, designed for those who dress not to be seen, but to be felt.",
   founded: 2021,
-  headquarters: "Copenhagen, Denmark",
+  headquarters: "Edegem, Belgium",
 };
 
 // ─── Navigation ──────────────────────────────────────────
@@ -48,7 +48,7 @@ export const collections: Collection[] = [
     description:
       "Ethereal silhouettes inspired by the highest, most delicate cloud formations. Cirrus is clothing that barely touches — gossamer knits, translucent weaves, and cuts that float.",
     longDescription:
-      "The Cirrus collection draws from the ice-crystal elegance of high-altitude clouds. Each piece is engineered for weightlessness — using micro-denier fabrics, laser-cut seams, and zero-gravity draping techniques developed in our Copenhagen atelier. The palette whispers: ivory, pale lavender, and silver-grey, punctuated by moments of arctic blue.",
+      "The Cirrus collection draws from the ice-crystal elegance of high-altitude clouds. Each piece is engineered for weightlessness — using micro-denier fabrics, laser-cut seams, and zero-gravity draping techniques developed in our Edegem atelier. The palette whispers: ivory, pale lavender, and silver-grey, punctuated by moments of arctic blue.",
     pieces: [
       { name: "Altocirrus Drape Coat", type: "Outerwear", price: 890 },
       { name: "Filament Knit Top", type: "Knitwear", price: 340 },
@@ -127,7 +127,7 @@ export const dnaPillars: Pillar[] = [
   {
     title: "Craftsmanship",
     description:
-      "Each piece passes through the hands of master artisans in our Copenhagen atelier, where tradition meets the avant-garde.",
+      "Each piece passes through the hands of master artisans in our Edegem atelier, where tradition meets the avant-garde.",
     icon: "Scissors",
   },
   {
@@ -186,11 +186,11 @@ export const marqueeWords = [
 export const story = {
   headline: "Born from the Sky",
   intro:
-    "Cloudy World emerged from a simple observation: the most beautiful garments move like weather. Founded in 2021 by textile designer Elara Voss and architect Kai Lindström, the brand began in a converted greenhouse on the outskirts of Copenhagen.",
+    "Cloudy World emerged from a simple observation: the most beautiful garments move like weather. Founded in 2021 in Edegem, a quiet town just south of Antwerp, the brand was born under the wide Belgian skies — where clouds drift endlessly and light shifts by the hour.",
   body: [
-    "What started as an experiment in translating atmospheric phenomena into fabric soon became a philosophy. Elara's background in biomimetic textiles and Kai's understanding of structural form created a design language unlike anything in contemporary fashion.",
-    "Our first collection, 'Stratus', debuted at Copenhagen Fashion Week to critical acclaim. Since then, we've grown from a two-person studio to a team of 40, but the greenhouse spirit remains — every piece begins with observation, wonder, and a willingness to let the sky dictate the design.",
-    "Today, Cloudy World operates from a solar-powered atelier in the Nordhavn district, producing two main collections and one resort collection annually. Our commitment to slow fashion means we produce in limited runs, ensuring quality over quantity.",
+    "What started as an experiment in translating atmospheric phenomena into fabric soon became a philosophy. Working from a converted villa in Edegem, our founding team developed a design language unlike anything in contemporary fashion — one that draws equally from Antwerp's avant-garde heritage and the raw beauty of the Flemish sky.",
+    "Our first collection, 'Stratus', debuted at Antwerp Fashion Weekend to critical acclaim. Since then, we've grown from a small studio to a team of 40, but the spirit of those early days remains — every piece begins with observation, wonder, and a willingness to let the sky dictate the design.",
+    "Today, Cloudy World operates from a solar-powered atelier in the heart of Edegem, producing two main collections and one resort collection annually. Rooted in Belgium's rich fashion tradition, our commitment to slow fashion means we produce in limited runs, ensuring quality over quantity.",
   ],
 };
 
@@ -203,27 +203,27 @@ export interface TimelineEvent {
 export const timeline: TimelineEvent[] = [
   {
     year: 2021,
-    title: "The Greenhouse",
+    title: "The Villa",
     description:
-      "Elara Voss and Kai Lindström found Cloudy World in a converted greenhouse outside Copenhagen, producing their first experimental pieces.",
+      "Cloudy World is founded in a converted villa in Edegem, just south of Antwerp, producing the first experimental pieces under wide Belgian skies.",
   },
   {
     year: 2022,
     title: "Stratus Debut",
     description:
-      "First collection 'Stratus' premieres at Copenhagen Fashion Week. The show, set in a fog-filled warehouse, earns critical acclaim.",
+      "First collection 'Stratus' premieres at Antwerp Fashion Weekend. The show, set in a fog-filled warehouse along the Scheldt, earns critical acclaim.",
   },
   {
     year: 2023,
-    title: "Nordhavn Atelier",
+    title: "Edegem Atelier",
     description:
-      "The brand moves to a purpose-built, solar-powered atelier in Copenhagen's Nordhavn district. Team grows to 25.",
+      "The brand opens a purpose-built, solar-powered atelier in the heart of Edegem. Team grows to 25.",
   },
   {
     year: 2024,
     title: "Global Stockists",
     description:
-      "Cloudy World garments appear in 40+ select retailers worldwide. Partnership with Hyundai on a capsule collection merging fashion and mobility.",
+      "Cloudy World garments appear in 40+ select retailers worldwide, from Antwerp to Tokyo. The Belgian fashion press takes notice.",
   },
   {
     year: 2025,
@@ -277,27 +277,22 @@ export const team: TeamMember[] = [
   {
     name: "Almir Lojo",
     role: "CEO",
-    bio: "Visionary leader with a passion for merging business strategy with creative ambition. Almir steers Cloudy World's global growth while ensuring the brand's atmospheric identity remains uncompromised.",
+    bio: "Visionary leader with a passion for merging business strategy with creative ambition. Almir steers Cloudy World's global growth from Edegem, ensuring the brand's atmospheric identity remains uncompromised.",
   },
   {
-    name: "Elara Voss",
-    role: "Co-Founder & Creative Director",
-    bio: "Textile alchemist with a background in biomimetic materials. Elara sees fabric as a living system — responsive, adaptive, and deeply connected to the natural world.",
+    name: "Sophie Claes",
+    role: "Creative Director",
+    bio: "Antwerp Royal Academy graduate with an eye for the impossible. Sophie translates atmospheric phenomena into silhouettes that feel both alien and intimately familiar.",
   },
   {
-    name: "Kai Lindström",
-    role: "Co-Founder & Design Director",
-    bio: "Trained as an architect, Kai brings structural thinking to fashion. His approach treats each garment as a small building — engineered for beauty, comfort, and longevity.",
-  },
-  {
-    name: "Maren Dahl",
+    name: "Jonas Peeters",
     role: "Head of Sustainability",
-    bio: "Environmental scientist turned fashion advocate. Maren ensures every decision — from fiber sourcing to shipping — aligns with our planetary commitments.",
+    bio: "Environmental engineer turned fashion advocate. Jonas ensures every decision — from fiber sourcing to shipping — aligns with our planetary commitments and Belgian craftsmanship standards.",
   },
   {
-    name: "Théo Roux",
+    name: "Léa Dubois",
     role: "Atelier Manager",
-    bio: "Master tailor with 20 years of couture experience. Théo leads our team of artisans, bridging traditional craftsmanship with experimental techniques.",
+    bio: "Master tailor with 15 years of couture experience across Brussels and Paris. Léa leads our team of artisans in the Edegem atelier, bridging traditional Belgian craftsmanship with experimental techniques.",
   },
 ];
 
@@ -312,25 +307,25 @@ export interface Location {
 
 export const locations: Location[] = [
   {
-    city: "Copenhagen",
-    type: "Atelier & Flagship",
-    address: "Århusgade 88, 2150 Nordhavn, Copenhagen, Denmark",
+    city: "Edegem",
+    type: "Atelier & Headquarters",
+    address: "Prins Boudewijnlaan 45, 2650 Edegem, Belgium",
     hours: "Mon–Sat 10:00–18:00",
-    email: "copenhagen@cloudyworld.com",
+    email: "atelier@cloudyworld.com",
   },
   {
-    city: "Stockholm",
+    city: "Antwerp",
+    type: "Flagship Store",
+    address: "Nationalestraat 32, 2000 Antwerp, Belgium",
+    hours: "Tue–Sat 10:00–19:00",
+    email: "antwerp@cloudyworld.com",
+  },
+  {
+    city: "Brussels",
     type: "Showroom",
-    address: "Krukmakargatan 24, 118 51 Stockholm, Sweden",
-    hours: "Tue–Fri 11:00–17:00",
-    email: "stockholm@cloudyworld.com",
-  },
-  {
-    city: "Tokyo",
-    type: "Pop-Up Studio",
-    address: "3-14-5 Minami-Aoyama, Minato-ku, Tokyo 107-0062",
-    hours: "Wed–Sun 12:00–20:00",
-    email: "tokyo@cloudyworld.com",
+    address: "Rue Dansaert 78, 1000 Brussels, Belgium",
+    hours: "Wed–Sat 11:00–18:00",
+    email: "brussels@cloudyworld.com",
   },
 ];
 

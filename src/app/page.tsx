@@ -58,7 +58,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="font-sans text-xs tracking-[0.4em] uppercase text-dusty/70 mb-6"
           >
-            Copenhagen &mdash; Est. {brand.founded}
+            Edegem, Belgium &mdash; Est. {brand.founded}
           </motion.p>
 
           <motion.h1

@@ -126,7 +126,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} {brand.name}. All rights reserved.
           </p>
           <p className="font-sans text-xs text-cloud-300/30">
-            Crafted with atmosphere in Copenhagen
+            Crafted with atmosphere in Edegem, Belgium
           </p>
         </div>
       </div>
