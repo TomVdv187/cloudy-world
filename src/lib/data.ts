@@ -280,19 +280,9 @@ export const team: TeamMember[] = [
     bio: "Visionary leader with a passion for merging business strategy with creative ambition. Almir steers Cloudy World's global growth from Edegem, ensuring the brand's atmospheric identity remains uncompromised.",
   },
   {
-    name: "Sophie Claes",
-    role: "Creative Director",
-    bio: "Antwerp Royal Academy graduate with an eye for the impossible. Sophie translates atmospheric phenomena into silhouettes that feel both alien and intimately familiar.",
-  },
-  {
-    name: "Jonas Peeters",
-    role: "Head of Sustainability",
-    bio: "Environmental engineer turned fashion advocate. Jonas ensures every decision — from fiber sourcing to shipping — aligns with our planetary commitments and Belgian craftsmanship standards.",
-  },
-  {
-    name: "Léa Dubois",
-    role: "Atelier Manager",
-    bio: "Master tailor with 15 years of couture experience across Brussels and Paris. Léa leads our team of artisans in the Edegem atelier, bridging traditional Belgian craftsmanship with experimental techniques.",
+    name: "Aida Milisic",
+    role: "Co-Founder",
+    bio: "The creative force behind Cloudy World's inception. Aida's intuition for fabric, form, and atmosphere set the brand's DNA from day one — translating the poetry of the sky into garments that move and breathe.",
   },
 ];
 
