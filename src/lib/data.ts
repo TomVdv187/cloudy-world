@@ -275,6 +275,11 @@ export interface TeamMember {
 
 export const team: TeamMember[] = [
   {
+    name: "Almir Lojo",
+    role: "CEO",
+    bio: "Visionary leader with a passion for merging business strategy with creative ambition. Almir steers Cloudy World's global growth while ensuring the brand's atmospheric identity remains uncompromised.",
+  },
+  {
     name: "Elara Voss",
     role: "Co-Founder & Creative Director",
     bio: "Textile alchemist with a background in biomimetic materials. Elara sees fabric as a living system — responsive, adaptive, and deeply connected to the natural world.",
